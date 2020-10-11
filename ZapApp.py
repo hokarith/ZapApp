@@ -5,7 +5,7 @@ class ZapApp:
     def __init__(self):
         self.message = "Ola, essa mensagem eh um teste"
         self.arquivo = open("encerrados.txt")
-        self.numeros = ["5541988975687", "554197516418"]                          #self.arquivo.readlines()
+        self.numeros = ["11111111111", "00000000000"]                          #self.arquivo.readlines()
         options = webdriver.ChromeOptions()
         options.add_argument("lang=pt-br")
         self.driver = webdriver.Chrome(executable_path=r"./chromedriver.exe")
